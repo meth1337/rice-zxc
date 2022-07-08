@@ -34,6 +34,7 @@ except IndexError:
     print("Вы не ввели аргумент!\nДля помощи введите zxc --help/zxc.py --help")
 except KeyboardInterrupt:
     print(RESET + "Пока!)")
+    sys.exit(0)
 except:
     pass  # ПХАХАХАХАХАХАХАХАХХ
 
