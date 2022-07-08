@@ -16,7 +16,7 @@ RESET = Fore.RESET  # Дефолтный цвет
 try:
     if sys.argv[1] == "-r":
         print_frames(color=red)
-    elif sys.argv == "-g":
+    elif sys.argv[1] == "-g":
         print_frames(color=green)
     elif sys.argv[1] == "-b":
         print_frames(color=blue)
