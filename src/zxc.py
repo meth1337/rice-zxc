@@ -31,7 +31,7 @@ try:
     elif sys.argv[1] == "--help":  # Помощь
         print("Танцующий ASCII дед инсайд кот.\nДля использования введите команду zxc + цвет, который вы хотите использовать\nДоступные цвета:\n - r - красный\n - g - зеленый\n - b - синий\n - p - розовый \n - y - желтый\n - c - голубой\n - w - белый")
 except IndexError:
-    print("Вы не ввели аргумент!\nДля помощи введите zxc --help/zxc.py --help")
+    print("Вы не ввели аргумент!\nДля помощи введите zxc --help")
 except KeyboardInterrupt:
     print(RESET + "Пока!)")
     sys.exit(0)
